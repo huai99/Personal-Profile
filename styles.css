@@ -21,6 +21,11 @@
     padding-top: 250px;
 }
 
+hr {
+    width: 70%;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
 div {
     display: block;
 }
@@ -147,8 +152,10 @@ ul {
     display: block;
 }
 
-.s-section-4-section-title {
+.s-section-4-main-title {
     margin: 0 0 5% 0;
+    font-family: "Arial Black";
+    font-weight: bold;
 }
 
 .s-section-5-title {
@@ -170,6 +177,8 @@ ul {
     font-size: 2.5rem;
     line-height: 1.2;
     display: block;
+    font-weight: bold;
+    font-family: "Arial Black";
 }
 
 .s-section-5-text-area {
@@ -181,4 +190,5 @@ ul {
     margin: 2%;
     display: inline;
 }
+
 
