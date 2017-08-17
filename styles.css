@@ -1,3 +1,7 @@
+body{
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
 .navbar .transparent .navbar-inverse .navbar-inner {
     border-width: 0;
     -webkit-box-shadow: 0 0;
@@ -11,6 +15,8 @@
 
 .nav-title {
     color: #ffffff;
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 20px;
 }
 
 #cover-photo {
@@ -41,6 +47,7 @@ ul {
     text-align: center;
     color: #000000;
     background-color: rgba(211, 211, 211, 0.3);
+    font-family: 'Lobster', Georgia, Times, serif;
 }
 
 #profile-pic {
@@ -57,25 +64,28 @@ ul {
 .s-section-2-text {
     width: 70%;
     margin: 0 auto;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 
 .job-experience {
     display: block;
 }
 
-.bullent-point {
-    background-color: red;
-    font-style: italic;
-    background-image: linear-gradient(90deg, #ff0000 0%, #ffa500 100%);
-    text-transform: uppercase;
-    color: #ffffff;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 2rem;
-}
-
 .s-section-2-list {
     padding: 2%;
+    font-size: 20px;
+}
+
+.bullent-point {
+    /*background-color: red;*/
+    font-style: italic;
+    /*background-image: linear-gradient(90deg, #ff0000 0%, #ffa500 100%);*/
+    text-transform: uppercase;
+    color: #000000;
+    /*-webkit-text-fill-color: transparent;*/
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    font-weight:bold;
 }
 
 .s-section-3 {
@@ -103,16 +113,22 @@ ul {
 
 .s-section-3-main-title {
     font-weight: bold;
-    font-family: "Arial Black";
+
 }
 
 .s-section-3-info-position {
     font-weight: bold;
     color: forestgreen;
+    font-size: 20px;
 }
 
 .s-section-3-info-location {
     font-weight: bold;
+    font-size: 18px;
+}
+
+.s-section-3-info-job-description{
+    font-size: 18px;
 }
 
 .company-icon {
