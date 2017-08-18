@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 
@@ -85,7 +85,7 @@ ul {
     /*-webkit-text-fill-color: transparent;*/
     -webkit-background-clip: text;
     font-size: 2rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .s-section-3 {
@@ -94,7 +94,7 @@ ul {
 
 .s-section-3-icon {
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: auto;
     display: block;
 }
@@ -127,27 +127,12 @@ ul {
     font-size: 18px;
 }
 
-.s-section-3-info-job-description{
+.s-section-3-info-job-description {
     font-size: 18px;
 }
 
 .company-icon {
     border-radius: 30%;
-}
-
-@media screen and (max-width: 1000px) {
-    .s-section-3-area {
-        display: flex;
-        flex-flow: column;
-    }
-
-    .s-section-3-icon-area {
-        order: 0;
-    }
-
-    .s-section-3-info {
-        order: 1;
-    }
 }
 
 .s-section-4 {
@@ -185,10 +170,6 @@ ul {
 
 }
 
-.s-section-5 {
-    padding: 5%;
-}
-
 .s-section-5-text {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -201,10 +182,40 @@ ul {
     margin-bottom: 5%;
 }
 
-.s-section-5-icon {
-    width: 15%;
-    margin: 2%;
-    display: inline;
+@media (max-width: 1000px) {
+    .s-section-3-area {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .s-section-3-icon-area {
+        order: 0;
+    }
+
+    .s-section-3-info {
+        order: 1;
+    }
+
+    .s-section-5-icon {
+        width: 40%;
+        margin: 2%;
+        display: inline;
+    }
 }
+
+@media (min-width: 1000px) {
+    .s-section-5-icon {
+        width: 15%;
+        margin: 2%;
+        display: inline;
+    }
+
+    .s-section-5 {
+        padding: 5%;
+        height: 500px;
+    }
+}
+
+
 
 
