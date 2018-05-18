@@ -1,0 +1,237 @@
+body {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+.navbar .transparent .navbar-inverse .navbar-inner {
+    border-width: 0;
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)),
+    color-stop(100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.nav-title {
+    color: #ffffff;
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 20px;
+}
+
+#cover-photo {
+    background-image: url('http://res.cloudinary.com/huai99/image/upload/v1503122437/cliff_leg_c53ojb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 250px;
+}
+
+hr {
+    width: 70%;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+div {
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.s-section-1-text {
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.3);
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+#profile-pic {
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.s-section-2 {
+    padding: 2%;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+.s-section-2-list {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.job-experience {
+    display: block;
+}
+
+.s-section-2-list {
+    padding: 2%;
+    font-size: 20px;
+}
+
+.bullent-point {
+    /*background-color: red;*/
+    font-style: italic;
+    /*background-image: linear-gradient(90deg, #ff0000 0%, #ffa500 100%);*/
+    text-transform: uppercase;
+    color: #000000;
+    /*-webkit-text-fill-color: transparent;*/
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.s-section-3 {
+    padding: 5%;
+}
+
+.s-section-3-icon {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.s-section-3-info {
+    padding: 2%;
+}
+
+.s-section-3-icon-area {
+    padding: 2%;
+}
+
+.s-section-3-info-company-title {
+    color: #37c;
+}
+
+.s-section-3-main-title {
+    font-weight: bold;
+    font-family: "Arial Black";
+
+}
+
+.s-section-3-info-position {
+    font-weight: bold;
+    color: forestgreen;
+    font-size: 20px;
+}
+
+.s-section-3-info-location {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.s-section-3-info-job-description {
+    font-size: 18px;
+}
+
+.company-icon {
+    border-radius: 30%;
+}
+
+.s-section-4 {
+    padding: 5%;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+.project-photo {
+    border-radius: 20%;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.s-section-4-project-title {
+    margin: auto;
+    display: block;
+}
+
+.s-section-4-main-title {
+    margin: 0 0 5% 0;
+    font-family: "Arial Black";
+    font-weight: bold;
+}
+
+.s-section-5-title {
+    position: absolute;
+    color: #ffffff;
+}
+
+.s-section-5-area {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.s-section-5-text {
+    line-height: 1.2;
+    display: block;
+    font-weight: bold;
+    font-family: "Arial Black";
+}
+
+.s-section-5-text-area {
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1000px) {
+    .s-section-3-area {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .s-section-3-icon-area {
+        order: 0;
+    }
+
+    .s-section-3-info {
+        order: 1;
+    }
+
+    .s-section-5-icon {
+        width: 40%;
+        margin: 2%;
+        display: inline;
+    }
+
+    .s-section-5 {
+        padding: 5%;
+        height: 400px;
+    }
+
+    .s-section-2-text {
+        width: 85%;
+        margin: 0 auto;
+        font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    }
+}
+
+@media (min-width: 1000px) {
+    .s-section-5-icon {
+        width: 15%;
+        margin: 2%;
+        display: inline;
+    }
+
+    .s-section-5 {
+        padding: 5%;
+        height: 500px;
+    }
+
+    .s-section-2-text {
+        width: 70%;
+        margin: 0 auto;
+        font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    }
+}
+
+
+
+
